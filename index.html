@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ajax_text02(php)</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+</head>
+<body>
+    <form action="member.php" method="post" name="member" id="member">
+        <fieldset>
+            <legend>회원가입(Register)</legend>
+            <div>
+                <label for="user_name">이름</label>
+                <input type="text" name="user_name" id="user_name">
+            </div>
+            <div>
+                <label for="user_email">이메일</label>
+                <input type="text" name="user_email" id="user_email">
+            </div>
+           
+            <div>
+                <input type="submit" value="회원가입"><!-- summit은 딱하나만 만들기 , cancel은 버튼으로 만들자-->
+            </div>
+        </fieldset>
+    </form>
+    <h3 id="user">결과값</h3>
+
+</body>
+</html>
